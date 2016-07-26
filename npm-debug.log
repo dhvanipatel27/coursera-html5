@@ -1,0 +1,108 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'browser-sync',
+1 verbose cli   '*' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose install initial load of C:\Users\dhvan\AppData\Roaming\npm\package.json
+5 verbose readDependencies loading dependencies from C:\Users\dhvan\AppData\Roaming\npm\package.json
+6 silly cache add args [ 'browser-sync', null ]
+7 verbose cache add spec browser-sync
+8 silly cache add args [ '*', null ]
+9 verbose cache add spec *
+10 silly cache add parsed spec Result {
+10 silly cache add   raw: 'browser-sync',
+10 silly cache add   scope: null,
+10 silly cache add   name: 'browser-sync',
+10 silly cache add   rawSpec: '',
+10 silly cache add   spec: 'latest',
+10 silly cache add   type: 'tag' }
+11 silly addNamed browser-sync@latest
+12 verbose addNamed "latest" is being treated as a dist-tag for browser-sync
+13 info addNameTag [ 'browser-sync', 'latest' ]
+14 silly mapToRegistry name browser-sync
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry data Result {
+17 silly mapToRegistry   raw: 'browser-sync',
+17 silly mapToRegistry   scope: null,
+17 silly mapToRegistry   name: 'browser-sync',
+17 silly mapToRegistry   rawSpec: '',
+17 silly mapToRegistry   spec: 'latest',
+17 silly mapToRegistry   type: 'tag' }
+18 silly mapToRegistry uri https://registry.npmjs.org/browser-sync
+19 verbose addNameTag registry:https://registry.npmjs.org/browser-sync not in flight; fetching
+20 silly cache add parsed spec Result {
+20 silly cache add   raw: '*',
+20 silly cache add   scope: null,
+20 silly cache add   name: null,
+20 silly cache add   rawSpec: '*',
+20 silly cache add   spec: 'C:\\Users\\dhvan\\coursera-html5\\*',
+20 silly cache add   type: 'local' }
+21 error addLocal Could not install C:\Users\dhvan\coursera-html5\*
+22 verbose request uri https://registry.npmjs.org/browser-sync
+23 verbose request no auth needed
+24 info attempt registry request try #1 at 6:30:41 PM
+25 verbose request id 5fb25e7d116fff77
+26 verbose etag "BJATW0QGQXBENLYP36L0JKV1Q"
+27 http request GET https://registry.npmjs.org/browser-sync
+28 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+29 info attempt registry request try #2 at 6:30:51 PM
+30 verbose etag "BJATW0QGQXBENLYP36L0JKV1Q"
+31 http request GET https://registry.npmjs.org/browser-sync
+32 info retry will retry, error on last attempt: Error: getaddrinfo ENOENT registry.npmjs.org:443
+33 info attempt registry request try #3 at 6:31:51 PM
+34 verbose etag "BJATW0QGQXBENLYP36L0JKV1Q"
+35 http request GET https://registry.npmjs.org/browser-sync
+36 http 304 https://registry.npmjs.org/browser-sync
+37 verbose headers { date: 'Tue, 26 Jul 2016 22:31:50 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   etag: '"BJATW0QGQXBENLYP36L0JKV1Q"',
+37 verbose headers   age: '212',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-bos8228-BOS',
+37 verbose headers   'x-cache': 'HIT',
+37 verbose headers   'x-cache-hits': '1',
+37 verbose headers   'x-timer': 'S1469572310.739236,VS0,VE0',
+37 verbose headers   vary: 'Accept-Encoding' }
+38 silly get cb [ 304,
+38 silly get   { date: 'Tue, 26 Jul 2016 22:31:50 GMT',
+38 silly get     via: '1.1 varnish',
+38 silly get     'cache-control': 'max-age=300',
+38 silly get     etag: '"BJATW0QGQXBENLYP36L0JKV1Q"',
+38 silly get     age: '212',
+38 silly get     connection: 'keep-alive',
+38 silly get     'x-served-by': 'cache-bos8228-BOS',
+38 silly get     'x-cache': 'HIT',
+38 silly get     'x-cache-hits': '1',
+38 silly get     'x-timer': 'S1469572310.739236,VS0,VE0',
+38 silly get     vary: 'Accept-Encoding' } ]
+39 verbose etag https://registry.npmjs.org/browser-sync from cache
+40 verbose get saving browser-sync to C:\Users\dhvan\AppData\Roaming\npm-cache\registry.npmjs.org\browser-sync\.cache.json
+41 verbose correctMkdir C:\Users\dhvan\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+42 silly addNameTag next cb for browser-sync with tag latest
+43 silly addNamed browser-sync@2.13.0
+44 verbose addNamed "2.13.0" is a plain semver version for browser-sync
+45 silly cache afterAdd browser-sync@2.13.0
+46 verbose afterAdd C:\Users\dhvan\AppData\Roaming\npm-cache\browser-sync\2.13.0\package\package.json not in flight; writing
+47 verbose correctMkdir C:\Users\dhvan\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+48 verbose afterAdd C:\Users\dhvan\AppData\Roaming\npm-cache\browser-sync\2.13.0\package\package.json written
+49 verbose stack Error: ENOENT: no such file or directory, open 'C:\Users\dhvan\coursera-html5\*'
+49 verbose stack     at Error (native)
+50 verbose cwd C:\Users\dhvan\coursera-html5
+51 error Windows_NT 10.0.10586
+52 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "browser-sync" "*"
+53 error node v4.4.7
+54 error npm  v2.15.8
+55 error path C:\Users\dhvan\coursera-html5\*
+56 error code ENOENT
+57 error errno -4058
+58 error syscall open
+59 error enoent ENOENT: no such file or directory, open 'C:\Users\dhvan\coursera-html5\*'
+59 error enoent This is most likely not a problem with npm itself
+59 error enoent and is related to npm not being able to find a file.
+60 verbose exit [ -4058, true ]
